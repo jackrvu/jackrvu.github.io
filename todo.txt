@@ -1,0 +1,2 @@
+- add cv in data folder called cv.pdf 
+ - add image for profile picture
