@@ -1,15 +1,111 @@
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!-- Google tag (gtag.js) -->
-
+<html lang="en">
+<head></head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Jack Vu</title>
-  
   <meta name="author" content="Jack Vu">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes"/>
-  <link rel="stylesheet" type="text/css" href="data/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #d4edda; /* Light green background color */
+    }
+    table {
+      background-color: #fff;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    td {
+      padding: 20px;
+    }
+    heading {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      display: block;
+    }
+    papertitle {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      background: #d1ecf1; /* Light blue background color */
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+    ul li a:hover {
+      text-decoration: underline;
+    }
+    p {
+      margin: 10px 0;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin: 20px 0;
+    }
+    .section-heading {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #007BFF;
+      padding-bottom: 5px;
+    }
+    .image-container {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
 
 <body>
+  
+  <nav style="width: 100%; max-width: 800px; margin: 0 auto; text-align: center; background-color: #333; border-radius: 8px; padding: 10px;">
+    <a href="#about" style="color: #ffffff; margin: 0 10px; text-decoration: none; font-size: 16px;" class="smooth-scroll">About</a>
+    <a href="#updates" style="color: #ffffff; margin: 0 10px; text-decoration: none; font-size: 16px;" class="smooth-scroll">Updates</a>
+    <a href="#research" style="color: #ffffff; margin: 0 10px; text-decoration: none; font-size: 16px;" class="smooth-scroll">Research</a>
+    <a href="#projects" style="color: #ffffff; margin: 0 10px; text-decoration: none; font-size: 16px;" class="smooth-scroll">Projects</a>
+    <a href="#teaching" style="color: #ffffff; margin: 0 10px; text-decoration: none; font-size: 16px;" class="smooth-scroll">Teaching</a>
+    <a href="#honors" style="color: #ffffff; margin: 0 10px; text-decoration: none; font-size: 16px;" class="smooth-scroll">Honors</a>
+  </nav>
+
+  <script>
+    document.querySelectorAll('.smooth-scroll').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+  </header>
   <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
     <tbody><tr>
     <td>
@@ -17,36 +113,36 @@
       <tbody><tr>
         <td width="67%" valign="middle">
         <p align="center">
-          <name>Jack Vu</name>
+            <name style="font-size: 28px; font-weight: bold">Jack Vu</name>
         </p>
         <p>
         I am a senior at St. John's school interested in using computer science to navigate the fields of linguistics and Latin American studies. 
         </p>
         <p>
-        I founded and currently run a program called <a href = "https://www.instagram.com/dig_doorways/">Digital Doorways</a> that aims to provide public computer centers and computer literacy education for underserved Houston communities. With upwards of $34,900 in funds and materials raised, Digital Doorways has constructed three computer labs that serve 100+ students weekly. Our corporate partners include Baker-Ripley, the YMCA of Greater Houston, Mission Milby CDC, Christian Community Service Center, and the St. Austin Literacy Center.
+        I founded and currently run a program called <a href="https://www.instagram.com/dig_doorways/" style="color: #007BFF;">Digital Doorways</a> that aims to provide public computer centers and computer literacy education for underserved Houston communities. With upwards of $34,900 in funds and materials raised, Digital Doorways has constructed three computer labs that serve 150+ students. Our partners include Baker-Ripley, the YMCA of Greater Houston, Mission Milby CDC, Christian Community Service Center, and the St. Austin Literacy Center.
         </p>
         <p>
         Aside from computer education, I am deeply interested in building tools to solve pressing issues.
         </p>
 
         <p align="center">
-          <a href="mailto:jvu@sjs.org">Email</a> &nbsp;/&nbsp;
-            <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp;
-            <a href="https://github.com/jackrvu">Github</a>
+          <a href="mailto:jvu@sjs.org" style="color: #007BFF;">Email</a> &nbsp;/&nbsp;
+            <a href="https://github.com/jackrvu" style="color: #007BFF;">Github</a> &nbsp;/&nbsp;
+            <a href="https://www.linkedin.com/in/jack-r-vu/" style="color: #007BFF;">LinkedIn</a>
         </p>
 
         </td>
         <td style="padding:2.5%;width:30%;max-width:30%">
-          <img style="width:100%;max-width:100%" src="images/profile.jpeg">
+          <img style="width:100%;max-width:100%;border-radius: 8px;" src="images/profile.jpeg">
         </td>
       </tr>
       </tbody></table>
-
+      
        <!-- Updates SECTION -->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="updates">
         <tbody><tr>
           <td width="100%" valign="middle">
-            <heading>Updates</heading>
+        <heading>Updates</heading>
           </td>
 
         </tr>
@@ -54,108 +150,124 @@
         </tbody></table>
         <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"> -->
           <ul>
-            <!--<li> [Apr 2024] Received an <a href="https://www.amazon.science/research-awards/program-updates/99-amazon-research-awards-recipients-announced">Amazon Research Award</a>. </li>-->
-            <li>[July 2024] Named an <a href="https://apcentral.collegeboard.org/exam-administration-ordering-scores/scores/awards/scholar-awards">AP Scholar With Distinction</a>.</li>
-            <li>[May 2024] Received the St. John's School Advanced Spanish Award.</li>
-            <li>[May 2024] Received the St. John's School Community Service Award.</li>
-            <li>[May 2024] Finalist for the St. John's School Physics Award.</li>
-            <li>[April 2024] Received the <a href="https://presidentialserviceawards.gov/">President's Volunteer Service Gold Award for Community Service</a>.</li>
-            <li>[April 2024] Received the Eagle Scout Award</a>.</li>
-            <li>[Mar 2024] Honored to received the <a href="https://sjs.myschoolapp.com/page/fellowships?siteId=1228&ssl=1#:~:text=The%20Turk%20Adrogu%C3%A9%20El%2DHakam%20Fellowship%20in%20Science%20awards%20student,learn%20and%2For%20apply%20science.">The Turk Adrogué El-Hakam Fellowship in Science</a> to continue to research digital literacy needs.</li>
-            <li> [Feb 2024] Selected for the <a href="https://www.thsca.com/academic-all-state">Texas Academic All-State Football Team</a>.</li>
-            <li> [May 2023] Finalist for the St. John's School Spanish III Award.</li>
+
+        <li>[September 2024] Founded Amiguitos de Lenguas to teach Spanish skills to indigenous Mayan Q'eqchi' students at <a href="https://www.archgh.org/media/13432/other-vdm-casa-san-jose-programactivities-aide-120619.pdf" style="color: 007BFF;">Casa San Jose</a>.</li>
+        <li>[August 2024] <a href="https://apps.apple.com/bf/app/mav-hub/id6670142459" style="color: #007BFF;">Mav Hub iOS App</a> reaches 1,000 active users as a consensus 5 star app.</li>
+        <li>[August 2024] <a href="https://apps.apple.com/bf/app/mav-hub/id6670142459" style="color: #007BFF;">Mav Hub iOS App</a> released to the App Store.</li>
+        <li>[August 2024] Digital Doorways featured in the <a href="https://thebuzzmagazines.com/articles/2024/08/digital-doorways" style="color: #007BFF;">West University Buzz</a>.</li>
           </ul>
         <!-- </table> -->
 
        <!-- Research SECTION -->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="research">
         <tbody><tr>
           <td width="100%" valign="middle">
-            <heading>Research</heading>
+        <h2>Research</h2>
           </td>
         </tr>
         </tbody></table>
-
-
         <ul>
-            <li style="margin-bottom:15px"> 
-              <a href="research/ISP Presentation.pdf">
-                  <papertitle>A Look at Technology in Immigrant Communities</papertitle>
-                </a>
-                <p>Independent Study Project, Spring 2024.</p>
-            </li>
-            <li style="margin-bottom:15px"> 
-              <a>
-                  <papertitle>Evaluating Coupon Effectiveness: A Comprehensive Analysis Using Logistic Regression and Multivariate Techniques</papertitle>
-                </a>
-                <p>IndoorMedia Marketing, Summer 2024.
-                  <br>Jack Vu, Aashna Poduval, Brock Kelly</br>
-                </p>
-            </li>
-          </ul><table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <li style="margin-bottom:15px"> 
+              <strong>Turk Adrogue Al-Hakam Fellowship</strong>
+            <p>Researched practical topics for digital literacy instruction in Houston's East End.</p>
+          </li>
+        </ul>
+        <ul>
+        <li style="margin-bottom:15px"> 
+          <strong>A Look at Technology in Immigrant Communities</strong>
+            </a>
+            <p>Independent Study Project, Spring 2024.</p>
+        </li>
+        <li style="margin-bottom:15px"> 
+          <strong>Evaluating Coupon Effectiveness: A Comprehensive Analysis Using Logistic Regression and Multivariate Techniques</strong>
+            <p>IndoorMedia Marketing, Summer 2024.
+          <br>Jack Vu, Aashna Poduval, Brock Kelly</br>
+            </p>
+        </li>
+        </ul><table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           
         </table>
-
-    
-       
-
         <!-- Projects em is the title / where it's presented, followed by the date, followed by the href(link) to the project-->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="projects"><tbody>
           <tr>
-            <td>
-              <heading>Projects</heading>
-            </td>
+        <td>
+          <heading>Projects</heading>
+        </td>
           </tr>
         </tbody></table>
         <ul>
-              <li> <papertitle>Automated Spanish Dialect Identification Using Bag-of-Words and Naive Bayes Classifier</papertitle><br>
-                <em></em>July 2024<br>[<a href="https://github.com/jackrvu/clasificador-cervantes">code</a>]</li>
-                <li> <papertitle>Tracking and Mapping Post-Hurricane Outages in the Houston Area: A Web Scraping Approach Using Starbucks Location Data</papertitle><br>
-                <em></em>July 2024<br>[<a href="https://github.com/jackrvu/coffee-power">code</a>]</li>
-                <li> <papertitle>Building a Flexible Python Curriculum for Elementary-aged Children</papertitle><br>
-                <em></em>July 2024<br>[<a href="https://github.com/jackrvu/python-easy">materials</a>]</li>   
-                <li> <papertitle>Comprehensive Compilation and Ranking of Company Patents by Citation Count Using Automated Web Scraping Techniques</papertitle><br>
-                <em></em>June 2024<br>[<a href="https://github.com/jackrvu/sweet-case">code</a>]</li>  
-                <li> <papertitle>Implementing an Efficient Backtracking Scrabble Algorithm with a User-Friendly Web Interface: Revisiting Classic Techniques</papertitle><br>
-                <em></em>May 2024<br>[<a href="images/Submission Video.mp4">video</a>][<a href="https://github.com/jackrvu/scrabble-maverick">code</a>]</li>
-                <li> <papertitle>Developing a Bot for Defeating the JKLM Bomb Party Game: Efficient and Automated Word Generation Approach after HTML Parsing</papertitle><br>
-                <em></em>May 2024<br>[<a href="https://github.com/jackrvu/word-wizard">code</a>]</li>
-                <li> <papertitle>Building a Spanish-language Curriculum for a Practical Adult Digital Literacy Course</papertitle><br>
-                <em></em>September 2023<br>[<a href="https://github.com/jackrvu/the-digital-doorway">materials</a>]</li>
-                <li> <papertitle>Optimizing Wordle Play: An Algorithmic Approach to Word List Reduction and Effective Guess Selection"</papertitle><br>
-                <em></em>June 2023<br>[<a href="https://github.com/jackrvu/min-wordle">code</a>]</li>
-                </ul><table width="100%" align="center" border="0" cellpadding="20"><tbody>
-                <tr>
+          <li> <papertitle>Mav Hub iOS App: Helper for St. John's School Life</papertitle><br>
+            <em></em>August 2024<br>[<a href="https://apps.apple.com/bf/app/mav-hub/id6670142459" style="color: #007BFF;">App Store link</a>]</li>
+          <li> <papertitle>Automated Spanish Dialect Identification Using Bag-of-Words and Naive Bayes Classifier</papertitle><br>
+            <em></em>July 2024<br>[<a href="https://github.com/jackrvu/clasificador-cervantes" style="color: #007BFF;">code</a>]</li>
+            <li> <papertitle>Tracking and Mapping Post-Hurricane Outages in the Houston Area: A Web Scraping Approach Using Starbucks Location Data</papertitle><br>
+            <em></em>July 2024<br>[<a href="https://github.com/jackrvu/coffee-power" style="color: #007BFF;">code</a>]</li>
+            <li> <papertitle>Building a Flexible Python Curriculum for Elementary-aged Children</papertitle><br>
+            <em></em>July 2024<br>[<a href="https://github.com/jackrvu/python-easy" style="color: #007BFF;">materials</a>]</li>   
+            <li> <papertitle>Comprehensive Compilation and Ranking of Company Patents by Citation Count Using Automated Web Scraping Techniques</papertitle><br>
+            <em></em>June 2024<br>[<a href="https://github.com/jackrvu/sweet-case" style="color: #007BFF;">code</a>]</li>  
+            <li> <papertitle>Implementing an Efficient Backtracking Scrabble Algorithm with a User-Friendly Web Interface: Revisiting Classic Techniques</papertitle><br>
+            <em></em>May 2024<br>[<a href="images/Submission Video.mp4" style="color: #007BFF;">video</a>][<a href="""https://github.com/jackrvu/scrabble-maverick" style="color: #007BFF;">code</a>]</li>
+            <li> <papertitle>Developing a Bot for Defeating the JKLM Bomb Party Game: Efficient and Automated Word Generation Approach after HTML Parsing</papertitle><br>
+            <em></em>May 2024<br>[<a href="https://github.com/jackrvu/word-wizard" style="color: #007BFF;">code</a>]</li>
+            <li> <papertitle>Building a Spanish-language Curriculum for a Practical Adult Digital Literacy Course</papertitle><br>
+            <em></em>September 2023<br>[<a href="https://github.com/jackrvu/the-digital-doorway" style="color: #007BFF;">materials</a>]</li>
+            <li> <papertitle>Optimizing Wordle Play: An Algorithmic Approach to Word List Reduction and Effective Guess Selection"</papertitle><br>
+            <em></em>June 2023<br>[<a href="https://github.com/jackrvu/min-wordle" style="color: #007BFF;">code</a>]</li>
+            </ul><table width="100%" align="center" border="0" cellpadding="20"><tbody>
+            <tr>
           </tr>
         </tbody></table>
         <!-- TEACHING SECTION -->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="teaching"><tbody>
           <tr>
-            <td>
-              <heading>Teaching</heading>
-            </td>
+        <td>
+          <heading>Teaching</heading>
+        </td>
           </tr>
         </tbody></table>
         <ul>
-          <li>Summer 2024: <a href="https://github.com/jackrvu/python-easy">Introduction to Python, Mission Milby Community Development Corporation  (Bilingual)</a>
+          <li>Fall 2024: <a href="https://github.com/jackrvu/the-digital-doorway" style="color: #007BFF;">Adult Digital Literacy, St. Austin Center (Spanish)</a>
           </li>
-          <li>Summer 2024: <a href="https://github.com/jackrvu/the-digital-doorway">Senior Digital Literacy, Denver Harbor Multi-Service Center (Spanish)</a>
+          <li>Fall 2024: <a href="https://github.com/jackrvu/python-easy" style="color: #007BFF;">Introduction to Python, Mission Milby Community Development Corporation  (Bilingual)</a>
           </li>
-          <li>Spring 2024: <a href="https://github.com/jackrvu/the-digital-doorway">Adult Digital Literacy, St. Austin Center (Spanish)</a>
+          <li>Summer 2024: <a href="https://github.com/jackrvu/python-easy" style="color: #007BFF;">Introduction to Python, Mission Milby Community Development Corporation  (Bilingual)</a>
           </li>
-          <li>Spring 2024: <a href="https://github.com/jackrvu/the-digital-doorway">Adult Digital Literacy, St. Austin Center (Spanish)</a>
+          <li>Summer 2024: <a href="https://github.com/jackrvu/the-digital-doorway" style="color: #007BFF;">Senior Digital Literacy, Denver Harbor Multi-Service Center (Spanish)</a>
           </li>
-          <li>Fall 2023: <a href="https://github.com/jackrvu/the-digital-doorway">Adult Digital Literacy, St. Austin Center (Spanish)</a>
+          <li>Spring 2024: <a href="https://github.com/jackrvu/the-digital-doorway" style="color: #007BFF;">Adult Digital Literacy, St. Austin Center (Spanish)</a>
+          </li>
+          <li>Spring 2024: <a href="https://github.com/jackrvu/the-digital-doorway" style="color: #007BFF;">Adult Digital Literacy, St. Austin Center (Spanish)</a>
+          </li>
+          <li>Fall 2023: <a href="https://github.com/jackrvu/the-digital-doorway" style="color: #007BFF;">Adult Digital Literacy, St. Austin Center (Spanish)</a>
           </li> 
-            </ul><table width="100%" align="center" border="0" cellpadding="20"><tbody>
+        </ul><table width="100%" align="center" border="0" cellpadding="20"><tbody>
           <tr>
-            
+        
           </tr>
         </tbody></table>
+
+        <!-- HONORS SECTION -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="honors"><tbody>
+          <tr>
+        <td>
+          <heading>Honors</heading>
+        </td>
+          </tr>
+        </tbody></table>
+        <ul>
+          <li>[September 2024] Named a <a href="https://generalacademic.com/houstons-national-merit-semifinalists-for-2024-2025/" style="color: #007BFF;">National Merit Semifinalist</a></li>
+          <li>[May 2024] Received the St. John's School Advanced Spanish Award.</li>
+          <li>[May 2024] Received the St. John's School Community Service Award.</li>
+          <li>[May 2024] Finalist for the St. John's School Physics Award.</li>
+          <li>[July 2024] Named an <a href="https://apcentral.collegeboard.org/exam-administration-ordering-scores/scores/awards/scholar-awards" style="color: #007BFF;">AP Scholar With Distinction</a></li>
+          <li>[April 2024] Awarded the <a href="https://presidentialserviceawards.gov/" style="color: #007BFF;">President's Volunteer Service Gold Award for Community Service</a></li>
+          <li>[April 2024] Eagle Scout Award</li>
+          <li>[March 2024] Awarded the <a href="https://sjs.myschoolapp.com/page/fellowships?siteId=1228&ssl=1#:~:text=The%20Turk%20Adrogu%C3%A9%20El%2DHakam%20Fellowship%20in%20Science%20awards%20student,learn%20and%2For%20apply%20science." style="color: #007BFF;">The Turk Adrogué El-Hakam Fellowship in Science</a></li>
+          <li>[February 2024] Named to the <a href="https://www.thsca.com/academic-all-state" style="color: #007BFF;">Texas Academic All-State Football Team</a></li>
+        </ul>
       </td>
     </tr>
   </tbody></table>
-
-
-
-</body></html>
+</body>
+</html>
