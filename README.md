@@ -1,4 +1,4 @@
-# jackrvu.github.io
+# jackvu.me
 
 A minimalist personal website built with Next.js and Tailwind CSS.
 
