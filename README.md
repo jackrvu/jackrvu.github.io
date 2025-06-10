@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 # jack vu
+=======
+# enbao.me 
+>>>>>>> 9260070 (Build site)
 
 A minimalist personal website built with Next.js and Tailwind.
 
@@ -27,4 +31,8 @@ npm start
 
 ## Deployment
 
+<<<<<<< HEAD
 Deployed using Vercel. Push to main branch to trigger automatic deployment.
+=======
+Deployed using Vercel. Push to main branch to trigger automatic deployment.
+>>>>>>> 9260070 (Build site)
