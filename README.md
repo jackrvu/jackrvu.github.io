@@ -1,11 +1,6 @@
+# jackrvu.github.io
 
-<<<<<<< HEAD
-# jack vu
-=======
-# enbao.me 
->>>>>>> 9260070 (Build site)
-
-A minimalist personal website built with Next.js and Tailwind.
+A minimalist personal website built with Next.js and Tailwind CSS.
 
 ## Local Development
 
@@ -21,18 +16,3 @@ npm run build
 
 # Start production server
 npm start
-```
-
-## Structure
-
-- `src/app/` - Page routes
-- `src/components/` - Reusable UI components
-- `src/data/` - Content and data files
-
-## Deployment
-
-<<<<<<< HEAD
-Deployed using Vercel. Push to main branch to trigger automatic deployment.
-=======
-Deployed using Vercel. Push to main branch to trigger automatic deployment.
->>>>>>> 9260070 (Build site)
