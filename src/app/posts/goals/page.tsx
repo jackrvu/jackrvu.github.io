@@ -32,7 +32,9 @@ export default function Specs() {
                     </h3>
                     <ul className="list-disc pl-5 space-y-2 bg-gray-100 p-3 rounded">
                         <li>drift, a gamified learning platform where users navigate some coherent space littered with long-form content articles from places like Wikipedia, arXiv, LessWrong, Paul Graham, etc.</li>
-
+                        <li>generate some sort of easy workflow for math psets. latex, but in a way that updates live, with a nice UI and window for both the text editing and generated pdf. I should be able to easily paste in questions and fluidly type in answers. Think Overleaf, but locally and w/ "benefits"</li>
+                        <li>build some benchmarks. finish the NYT crossword benchmark, generate some more sophisticated ones afterwards that focus on collaboration, strategy. come up with some novel circumstances, see how these models can "build" towards a common goal, how they operate in zero sum games, etc. Take inspiration from resource-based strategy games (Catan, Monopoly), but the benchmark and activities should be novel.</li>
+                        <li>start building progressively cooler AI/ML models. not using chat to generate them, just using my brain and understanding the underlying principles. not sure exactly what this looks like yet, but that's the deal with non-objective based search</li>
                     </ul>
                     <h3 className="font-semibold text-lg">
                         Learn
