@@ -100,7 +100,7 @@ export default function WorkoutSchedule() {
                 </div>
 
                 {/* Tuesday */}
-                <h3 className="font-semibold text-lg mt-6">tuesday - active recovery & core</h3>
+                <h3 className="font-semibold text-lg mt-6">tuesday – active recovery &amp; core</h3>
                 <div className="bg-gray-100 p-3 rounded">
                     <div className="overflow-x-auto">
                         <table className="min-w-full border-collapse">
@@ -108,40 +108,60 @@ export default function WorkoutSchedule() {
                                 <tr className="bg-gray-200">
                                     <th className="border border-gray-400 px-4 py-2">Segment</th>
                                     <th className="border border-gray-400 px-4 py-2">Work</th>
-                                    <th className="border border-gray-400 px-4 py-2">Load & Structure</th>
+                                    <th className="border border-gray-400 px-4 py-2">Load &amp; Structure</th>
                                     <th className="border border-gray-400 px-4 py-2">Time</th>
                                 </tr>
                             </thead>
                             <tbody>
+                                {/* A. Mobility Circuit */}
                                 <tr>
-                                    <td className="border border-gray-400 px-4 py-2">A. Mobility Circuit × 3</td>
-                                    <td className="border border-gray-400 px-4 py-2">1. Cossack squat × 8/side<br />2. Scap push-up × 10<br />3. Thoracic opener on foam roller × 10 pulses</td>
+                                    <td className="border border-gray-400 px-4 py-2">
+                                        A. Hip Circuit × 3
+                                    </td>
+                                    <td className="border border-gray-400 px-4 py-2">
+                                        1. Leg Circles x8/side
+                                        2. Fire Hydrants x8/side
+                                        3. Heels to Sky x8/side
+                                    </td>
                                     <td className="border border-gray-400 px-4 py-2">Body-weight</td>
                                     <td className="border border-gray-400 px-4 py-2">10 min</td>
                                 </tr>
+
+                                {/* B. Low-Impact Cardio (unchanged) */}
                                 <tr>
                                     <td className="border border-gray-400 px-4 py-2">B. Low-Impact Cardio</td>
                                     <td className="border border-gray-400 px-4 py-2">Upright bike or incline walk</td>
-                                    <td className="border border-gray-400 px-4 py-2">25-30 min @ &lt; 65% HRmax, nasal breathing only</td>
+                                    <td className="border border-gray-400 px-4 py-2">
+                                        25–30 min @ &lt; 65 % HR<sub>max</sub>, nasal breathing only
+                                    </td>
                                     <td className="border border-gray-400 px-4 py-2">30 min</td>
                                 </tr>
+
+                                {/* C. Core Giant-Set */}
                                 <tr>
-                                    <td className="border border-gray-400 px-4 py-2">C. Core Giant-Set × 4</td>
-                                    <td className="border border-gray-400 px-4 py-2">1. Ab-wheel rollout × 8 (RIR 1)<br />2. Pallof press (cable) × 12/side<br />3. Back extension × 15, 2-sec pause</td>
-                                    <td className="border border-gray-400 px-4 py-2">BW / light plate</td>
-                                    <td className="border border-gray-400 px-4 py-2">18 min</td>
+                                    <td className="border border-gray-400 px-4 py-2">
+                                        C. Core Giant-Set × 4
+                                    </td>
+                                    <td className="border border-gray-400 px-4 py-2">
+                                        1.&nbsp;Barbell rollout (from knees) × 8<br />
+                                        2.&nbsp;Weighted plank shoulder-tap × 10 / side<br />
+                                        3.&nbsp;Bench reverse crunch&nbsp;+ hip lift × 12
+                                    </td>
+                                    <td className="border border-gray-400 px-4 py-2">
+                                        BW&nbsp;/ light DB&nbsp;/ empty barbell
+                                    </td>
+                                    <td className="border border-gray-400 px-4 py-2">18&nbsp;min</td>
                                 </tr>
+
+
+                                {/* D. Static Stretch Flow */}
                                 <tr>
                                     <td className="border border-gray-400 px-4 py-2">D. Static Stretch Flow</td>
-                                    <td className="border border-gray-400 px-4 py-2">Hip-flexor, pec, hamstring, calf, 60s each</td>
+                                    <td className="border border-gray-400 px-4 py-2">
+                                        Lat stretch, adductor stretch, piriformis stretch, ankle dorsiflexion – 60 s each
+                                    </td>
                                     <td className="border border-gray-400 px-4 py-2">—</td>
                                     <td className="border border-gray-400 px-4 py-2">10 min</td>
-                                </tr>
-                                <tr>
-                                    <td className="border border-gray-400 px-4 py-2">E. Breathwork</td>
-                                    <td className="border border-gray-400 px-4 py-2">4-s in / 6-s out, legs on bench</td>
-                                    <td className="border border-gray-400 px-4 py-2">5 min</td>
-                                    <td className="border border-gray-400 px-4 py-2">5 min</td>
                                 </tr>
                             </tbody>
                         </table>

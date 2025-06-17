@@ -26,6 +26,7 @@ export default function RootLayout({
         <div className="bg-white rounded-2xl shadow-xl w-full max-w-6xl p-4 mt-12 mb-12 custom-width">
           {children}
         </div>
+
       </body>
     </html>
   )

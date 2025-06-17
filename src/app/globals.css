@@ -62,6 +62,6 @@ a {
 
 /* Utility for dot-pattern background */
 .bg-dot-pattern {
-  background-image: radial-gradient(white 1px, transparent 0.5px);
-  background-size: 10px 10px;
+  background-image: radial-gradient(#ffffff 1px, transparent 0.5px);
+  background-size: 12px 12px;
 }
