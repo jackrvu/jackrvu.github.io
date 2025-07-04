@@ -3,6 +3,59 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Studio Ghibli background with dark mode support */
+body {
+  background-color: #f8f9fa;
+  /* fallback color */
+  transition: background-image 0.3s ease;
+  position: relative;
+}
+
+/* Fixed background for all devices using pseudo-element */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/studio_ghibli4.gif");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -2;
+  transition: background-image 0.3s ease;
+}
+
+/* Dark mode background */
+.dark body {
+  background-color: #1a1a1a;
+  /* fallback color for dark mode */
+}
+
+.dark body::after {
+  background-image: url("/assets/studio_ghiblidark.gif");
+}
+
+/* Add subtle overlay to ensure text readability with theme support */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  pointer-events: none;
+  z-index: -1;
+  transition: background 0.3s ease;
+}
+
+/* Dark mode overlay */
+.dark body::before {
+  background: rgba(0, 0, 0, 0.2);
+}
+
 /* Base styles */
 html,
 body {
