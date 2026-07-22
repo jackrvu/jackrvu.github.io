@@ -16,6 +16,13 @@ interface Project {
 // Your projects data
 const projects: Project[] = [
   {
+    name: "openretainer",
+    description: "replacement retainers for $99 in texas. pulls the 3d scan your orthodontist already has on file, has a u.s. dental lab press a new one, ships it to your door.",
+    links: {
+      site: "https://openretainer.com"
+    }
+  },
+  {
     name: "mav hub ios app",
     description: "school app that displays all schedule, club, and assignment information. 110k uses/mo, 1.1k regular users.",
     links: {
