@@ -21,7 +21,6 @@ export default function HomePage() {
             className="w-24 h-24 object-cover border border-gray-300"
           />
         </div>
-        <p className="tracking-very-tight text-center text-[8px] flex justify-center mt-2">^ explaining why Euler's method is valid</p>
       </div>
 
       <div className="border border-black p-2 w-[100%]">

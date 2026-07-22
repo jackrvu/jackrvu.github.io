@@ -17,7 +17,7 @@ interface Project {
 const projects: Project[] = [
   {
     name: "openretainer",
-    description: "replacement retainers for $99 in texas. pulls the 3d scan your orthodontist already has on file, has a u.s. dental lab press a new one, ships it to your door.",
+    description: "replacement retainers for $99 in texas. pulls the 3d scan your orthodontist already has on file and ships a high quality replacement directly to your doorstep.",
     links: {
       site: "https://openretainer.com"
     }
